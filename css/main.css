@@ -101,6 +101,7 @@ p.light {
 
 .container-content p {
 	margin-bottom: 42px;
+	margin-left: -22px;
 }
 
 a:link, a:visited {
@@ -113,8 +114,9 @@ a:link, a:visited {
 
 #container-form {
 	width: 47%;
-	margin: 0 auto;
-	margin-top: 68px;
+	margin: 68px auto 0 317px;
+	/*margin-top: 68px;*/
+
 
 }
 
