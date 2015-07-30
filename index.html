@@ -1,27 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
+	<meta charset="UTF-8"></meta>
 	<title>Simple Blog</title>
+	<link rel="stylesheet" href="css/reset.css">
+	<link href='http://fonts.googleapis.com/css?family=Montserrat:700' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Teko:300,400' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Titillium+Web:300' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/main.css">
 </head>
 <body>
+<article>
 	<header>
+		<div class="over-image">
 		<h1>Stock photos that don’t suck</h1>
-		<p>A list of places to find the best free stock photos</p>
-		<img src="img/bg.jpg" alt="Simple Blog">
+		<h2>A list of places to find the best free stock photos</h2> 
+		</div>
 	</header>
-	<section>
-		<img src="img/profile.jpg" alt="Dustin Senos">
-		<h2>Dustin Senos</h2>
-		<p>Art &  Design</p>
-		<p>22 January 2014</p>
-		<article>
-			<p>Finding great stock photos is a pain. You’re left with either low-res amateur photos, people wearing cheesy headsets, or photos that are out of budget for the project you’re working on. Below is an ongoing list (so bookmark it) of the best stock photo sites I’ve come across.
-</p>
+	<div class="container">
+		<section>
+			<div class="container-pro">
+			<figure>
+				<img src="img/profile.jpg" alt="Dustin Senos">
+			</figure> 
+			<h2>Dustin Senos</h2>
+			<p>Art &  Design</p>
+			<p>22 January 2014</p>
+			</div>
+				<p>Finding great stock photos is a pain. You’re left with either low-res amateur photos, people wearing cheesy headsets, or photos that are out of budget for the project you’re working on. Below is an ongoing list (so bookmark it) of the best stock photo sites I’ve come across.</p>
 			<ul>
-				<li>Little Visuals <a href="http://littlevisuals.co/"> http://littlevisuals.co/</a>
-</li>
+				<li>Little Visuals <a href="http://littlevisuals.co/" target="_blank"> http://littlevisuals.co/</a></li>
 				<li>Unsplash<a href="http://unsplash.com/">http://unsplash.com/</a></li>
 				<li>Death to the Stock Photo<a href="http://join.deathtothestockphoto.com/">http://join.deathtothestockphoto.com/</a></li>
 				<li>New Old Stock<a href="http://nos.twnsnd.co/"></a>http://nos.twnsnd.co/</li>
@@ -34,36 +43,39 @@
 				<li>Jay Mantri<a href="http://jaymantri.com/">http://jaymantri.com/</a></li>
 				<li>Public Domain Archive<a href="http://publicdomainarchive.com/">http://publicdomainarchive.com/</a></li>
 			</ul>
-		</article>
-	</section>
-	<h3>Leave a Reply</h3>
-	<form action="">
-		<input type="text" placeholder="Your Name"/>
-		<input type="email" placeholder="Please Enter Your Message"/>
-		<button><p>Add Comment</p></button>
-	</form>
-	<aside>
-		<h4>Share this Post</h4>
-		<p>If you like this article, please take a second to share it with the world and help idealUI grow!</p>
-		<ul>
-			<li><a href="#" target="_blank"><i class="fa fa-facebook"></i>Facebook</a></li>
-			<li><a href="#" target="_blank"><i class="fa fa-twitter"></i>Twitter</a></li>
-			<li><a href="#" target="_blank"><i class="fa fa-pinterest-p"></i>pinterest</a></li>
-			<li><a href="#" target="_blank"><i class="fa fa-google-plus"></i>Google +</a></li>
-		</ul>
-	</aside>
+		</section>
+		<section>	
+			<h3>Leave a Reply</h3>
+			<form action="">
+				<input type="text" placeholder="Your Name"/>
+				<input type="email" placeholder="Please Enter Your Message"/>
+				<button><p>Add Comment</p></button>
+			</form>
+		</section>
+	</div>
+	</article>
+		<aside>
+			<h4>Share this Post</h4>
+			<p>If you like this article, please take a second to share it with the world and help idealUI grow!</p>
+			<ul>
+				<li><a href="#" target="_blank"><i class="fa fa-facebook"></i>Facebook</a></li>
+				<li><a href="#" target="_blank"><i class="fa fa-twitter"></i>Twitter</a></li>
+				<li><a href="#" target="_blank"><i class="fa fa-pinterest-p"></i>pinterest</a></li>
+				<li><a href="#" target="_blank"><i class="fa fa-google-plus"></i>Google +</a></li>
+			</ul>
+		</aside>
 	<nav>
 		<figure>
+			<img src="img/previous.jpg" alt="Previous">
+			<h4>Previous</h4>
 			<a href="#">
-				<img src="img/previous.jpg" alt="Previous">
-				<h4>Previous</h4>
 				<figcaption>How To Get Started your own creative studio</figcaption>
 			</a>
 		</figure>
 		<figure>
+			<img src="img/next.jpg" alt="Next">
+			<h4>Next</h4>
 			<a href="#">
-				<img src="img/next.jpg" alt="Next">
-				<h4>Next</h4>
 				<figcaption>Enhancing User Experience With The Web Speech API</figcaption>
 			</a>
 		</figure>
@@ -71,6 +83,5 @@
 	<footer>
 		<p>&copy;2015 SAGE Multipurpose Theme. Made by idealUI</p>
 	</footer>
-	
 </body>
 </html>
